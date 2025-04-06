@@ -19,4 +19,5 @@ jobs:
           node-version: 18
       - name: Install Dependencies
         run: npm ci
+        working-directory: calc-app
       - run: npm test
