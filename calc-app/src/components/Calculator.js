@@ -1,5 +1,5 @@
 
-function calc(a, b, operation){
+function calc(a, b, operation){//functionality
     const hexTag = "0x";
     const digitA = parseInt(hexTag.concat(a));
     const digitB = parseInt(hexTag.concat(b));
